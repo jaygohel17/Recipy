@@ -1,6 +1,6 @@
 # Recipy
 A flutter build Recipe-App
-# Recipy - Recipe Management App
+# Recipy - Recipe App
 
 ## Overview
 Recipy is a Flutter-based mobile application that allows users to discover, save, and share recipes. The app provides a modern and intuitive interface for browsing recipes, managing favorites, and customizing user preferences.
@@ -12,7 +12,10 @@ Recipy is a Flutter-based mobile application that allows users to discover, save
 - User registration and login
 - Secure session management
 - Profile customization with username
-  
+
+ ![Image](https://github.com/user-attachments/assets/8ddf7f1d-5c8c-4e2f-a513-7f34d019a861) 
+ ![Image](https://github.com/user-attachments/assets/c0d38ab8-5125-4def-9bd5-c606b8bf7f0f)
+ ![Image](https://github.com/user-attachments/assets/38e192b1-7d5d-46fc-bb7a-9f4181131b6e)
 
 ### 2. Recipe Management
 - Browse recipes with detailed information
@@ -21,17 +24,22 @@ Recipy is a Flutter-based mobile application that allows users to discover, save
 - Recipe details including:
   - Cooking time
   - Servings
-  - Health score
   - Ingredients list
   - Step-by-step instructions
   - Cuisine types
   - Dietary information
-
+ 
+    ![Image](https://github.com/user-attachments/assets/1e9de3b3-2018-4317-8635-f46509415c46)
+    ![Image](https://github.com/user-attachments/assets/e4fab1e1-1378-48d7-a129-83d0f65fa73f)
+    ![Image](https://github.com/user-attachments/assets/bc3a18f8-e465-4078-a07e-fd083cd5728e)
+    
 ### 3. Favorites
 - Save favorite recipes
 - Real-time synchronization with Firebase
 - Swipe-to-delete functionality
 - Pull-to-refresh for updates
+
+  ![Image](https://github.com/user-attachments/assets/97d2bd74-41a2-457e-8220-6c52a3c9b131)
 
 ### 4. Sharing
 - Share recipes via social media or messaging apps
@@ -39,15 +47,20 @@ Recipy is a Flutter-based mobile application that allows users to discover, save
   - Title
   - Cooking time
   - Servings
-  - Health score
   - Description
-  - Cuisines
+
+    ![Image](https://github.com/user-attachments/assets/2fb0e2a8-33df-4f31-aa44-db501795c26d)
+    ![Image](https://github.com/user-attachments/assets/5e65cefc-6b95-415e-a522-3b0503b683ff)
 
 ### 5. User Profile
 - Username management
 - Theme customization (Light/Dark/System)
 - Account settings
 - Help & Support section
+  
+  ![Image](https://github.com/user-attachments/assets/20fb43c1-a2f6-4a82-8ff1-3b319896cb58)   ![Image](https://github.com/user-attachments/assets/f4520411-1971-431e-b9bc-ac24009e2c00)
+ 
+  ![Image](https://github.com/user-attachments/assets/06f04401-009a-4df9-95ad-4f23a41f1a3d)   ![Image](https://github.com/user-attachments/assets/0b7e5dcf-e93d-474d-9c6b-b29743b107ac)
 
 ## Technical Stack
 
