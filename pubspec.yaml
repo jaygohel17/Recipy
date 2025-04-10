@@ -1,0 +1,39 @@
+name: recipe_app
+description: A dynamic Recipe App using Firebase, Google Sign-In, external API, and state management.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase & Auth
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.15.9
+  google_sign_in: ^6.2.1
+
+  # State Management
+  provider: ^6.1.2
+
+  # HTTP for API calls
+  http: ^1.2.1
+
+  # Core Flutter packages
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+
+  # New dependency
+  share_plus: ^7.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
