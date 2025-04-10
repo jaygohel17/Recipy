@@ -12,6 +12,7 @@ Recipy is a Flutter-based mobile application that allows users to discover, save
 - User registration and login
 - Secure session management
 - Profile customization with username
+  
 
 ### 2. Recipe Management
 - Browse recipes with detailed information
@@ -78,70 +79,10 @@ dependencies:
   share_plus: ^latest
 ```
 
-## Project Structure
+
 
 ```
-recipe/
-├── lib/
-│   ├── main.dart              # Main application entry point
-│   ├── models/                # Data models
-│   ├── screens/               # UI screens
-│   ├── providers/             # State management
-│   └── widgets/               # Reusable widgets
-├── assets/                    # Static assets
-└── pubspec.yaml              # Project configuration
-```
 
-## Key Components
-
-### 1. Authentication Flow
-```dart
-class AuthGate extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return StreamBuilder<User?>(
-      stream: FirebaseAuth.instance.authStateChanges(),
-      builder: (_, snapshot) {
-        if (snapshot.connectionState == ConnectionState.waiting)
-          return Center(child: CircularProgressIndicator());
-        if (snapshot.hasData) return MainLayout();
-        return LoginScreen();
-      },
-    );
-  }
-}
-```
-
-### 2. Recipe Model
-```dart
-class Recipe {
-  final int id;
-  final String title;
-  final String description;
-  final String image;
-  final int readyInMinutes;
-  final int servings;
-  final List<String> cuisines;
-  final List<String> diets;
-  final double healthScore;
-  final List<String> ingredients;
-  final List<String> instructions;
-  final String category;
-}
-```
-
-### 3. Theme Management
-```dart
-class ThemeProvider extends ChangeNotifier {
-  ThemeMode _themeMode = ThemeMode.system;
-  ThemeMode get themeMode => _themeMode;
-
-  void setThemeMode(ThemeMode mode) {
-    _themeMode = mode;
-    notifyListeners();
-  }
-}
-```
 
 ## API Integration
 
@@ -259,20 +200,13 @@ class ThemeProvider extends ChangeNotifier {
 
    # Run the app
    flutter run
-   ```
-
+   
 3. **Configuration**
    - Add Firebase configuration
    - Set up Spoonacular API key
    - Configure theme settings
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+```
 
 ## License
 
